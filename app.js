@@ -12,15 +12,3 @@ http.createServer(function(request,response){ //creating server && callback func
 .listen(4000); // port number-for every server-diff for diff server
 
 // Everytime we update the response we need to restart the server again.
-
-
-//express
-// const express = require('express');
-
-// const app = express(); //creating instance
-
-// app.get("/",function(req, res){
-
-//     res.send("HEllo World"); //automatically ends the request
-// })
-// app.listen(3002);
